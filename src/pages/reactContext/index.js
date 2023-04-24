@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { ContextPage } from "./ContextPage";
-import { ThemeContext } from "../../context/ThemeContext";
+import { useState } from 'react';
+import { ContextPage } from './ContextPage';
+import { ThemeContext } from '../../context/ThemeContext';
 
 export const ReactContext = () => {
   const [isDark, setIsDark] = useState(false);

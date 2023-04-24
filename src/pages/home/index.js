@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export const Home = () => {
   return (
     <>
-      <div>
-        <Link to="/ref">ref</Link>
-      </div>
-      <div>
-        <Link to="/context">context</Link>
-      </div>
+      <Link to="/ref">ref</Link>
+      <br />
+      <Link to="/context">context</Link>
+      <br />
+      <Link to="/storage">storage</Link>
     </>
   );
 };

@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from 'react';
 
 export const ReactRef = () => {
   const inputRef = useRef();
@@ -12,7 +12,7 @@ export const ReactRef = () => {
     inputRef.current.focus();
   };
 
-  console.log("render...");
+  console.log('render...');
 
   return (
     <div>
