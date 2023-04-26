@@ -22,7 +22,7 @@ export const ReactStorage = () => {
     myArr = [...myArr];
     // 5. localStorage에 데이터를 JSON 자료형으로 저장한다.
     localStorage.setItem('watched', JSON.stringify(myArr));
-  }, []);
+  }, [id]);
 
   let myArr = localStorage.getItem('watched');
   myArr = JSON.parse(myArr);
