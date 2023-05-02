@@ -5,6 +5,8 @@ import { Home } from './pages/home';
 import { ReactRef } from './pages/reactRef';
 import { ReactContext } from './pages/reactContext';
 import { ReactStorage } from './pages/reactStorage';
+import { ReactMemo } from './pages/reactMemo';
+import { ReactCallback } from './pages/reactCallback';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route exact path="/ref" element={<ReactRef />} />
         <Route exact path="/context" element={<ReactContext />} />
         <Route exact path="/storage" element={<ReactStorage />} />
+        <Route exact path="/memo" element={<ReactMemo />} />
+        <Route exact path="/callback" element={<ReactCallback />} />
       </Routes>
     </BrowserRouter>
   );

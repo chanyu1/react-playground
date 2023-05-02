@@ -8,6 +8,10 @@ export const Home = () => {
       <Link to="/context">context</Link>
       <br />
       <Link to="/storage">storage</Link>
+      <br />
+      <Link to="/memo">memo</Link>
+      <br />
+      <Link to="/callback">callback</Link>
     </>
   );
 };
