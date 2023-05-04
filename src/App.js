@@ -7,6 +7,7 @@ import { ReactContext } from './pages/reactContext';
 import { ReactStorage } from './pages/reactStorage';
 import { ReactMemo } from './pages/reactMemo';
 import { ReactCallback } from './pages/reactCallback';
+import { ReactCustomHook } from './pages/reactCustomHook';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/storage" element={<ReactStorage />} />
         <Route exact path="/memo" element={<ReactMemo />} />
         <Route exact path="/callback" element={<ReactCallback />} />
+        <Route exact path="/customhook" element={<ReactCustomHook />} />
       </Routes>
     </BrowserRouter>
   );

@@ -5,13 +5,15 @@ export const Home = () => {
     <>
       <Link to="/ref">ref</Link>
       <br />
-      <Link to="/context">context</Link>
+      <Link to="/context">useContext</Link>
       <br />
       <Link to="/storage">storage</Link>
       <br />
-      <Link to="/memo">memo</Link>
+      <Link to="/memo">useMemo</Link>
       <br />
-      <Link to="/callback">callback</Link>
+      <Link to="/callback">useCallback</Link>
+      <br />
+      <Link to="/customhook">customHook</Link>
     </>
   );
 };
