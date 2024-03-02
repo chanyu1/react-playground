@@ -8,6 +8,7 @@ import { ReactStorage } from './pages/reactStorage';
 import { ReactMemo } from './pages/reactMemo';
 import { ReactCallback } from './pages/reactCallback';
 import { ReactCustomHook } from './pages/reactCustomHook';
+import { ResizeAction } from './pages/resizeAction';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/memo" element={<ReactMemo />} />
         <Route exact path="/callback" element={<ReactCallback />} />
         <Route exact path="/customhook" element={<ReactCustomHook />} />
+        <Route exact path="/resizeaction" element={<ResizeAction />} />
       </Routes>
     </BrowserRouter>
   );

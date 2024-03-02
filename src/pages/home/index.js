@@ -14,6 +14,8 @@ export const Home = () => {
       <Link to="/callback">useCallback</Link>
       <br />
       <Link to="/customhook">customHook</Link>
+      <br />
+      <Link to="/resizeaction">resizeAction</Link>
     </>
   );
 };
